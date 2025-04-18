@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Investor Connect - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>STARTBRIDGE</h1>
+    <nav>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <ul id="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="submit.html">Submit Idea</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Connecting Startups with Investors</h2>
+    <p>We help innovative entrepreneurs find funding and bring their ideas to life.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>For Startups</h3>
+        <p>Upload your pitch and get visibility from top investors.</p>
+      </div>
+      <div class="feature">
+        <h3>For Investors</h3>
+        <p>Discover fresh, innovative startups ready to change the world.</p>
+      </div>
+      <div class="feature">
+        <h3>Breakthroughs</h3>
+        <p>Read success stories and milestone announcements on our blog.</p>
+      </div>
+    </div>
+    <a href="submit.html" class="btn">Submit Your Idea</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 STARTBRIDGE. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const navList = document.getElementById('nav-list');
+
+    toggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

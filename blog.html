@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>STARTBRIDGE</h1>
+  <nav>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul id="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="submit.html">Submit Idea</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li> </ul>
+</nav>
+</header>
+<main>
+  <section class="blog">
+    <div class="container">
+      <h2>Latest Announcements</h2> <article class="blog-post">
+        <h3>New startup, STARTBRIDGE raised ₦5M</h3>
+        <p>A promising fintech startup secured early-stage funding to expand its reach.</p>
+      </article>
+  <article class="blog-post">
+    <h3>Pitch presentation coming up on April 26th, 2025</h3>
+    <p>We’re hosting a physical pitch day with investors from across Kaduna State Universiy, Kafanchan Campus.</p>
+  </article>
+</div>
+</section>
+</main>
+<footer>
+  <p>&copy; 2025 STARTBRIDGE. All rights reserved.</p>
+</footer>
+<script> const toggle = document.getElementById('menu-toggle'); const navList = document.getElementById('nav-list'); toggle.addEventListener('click', () => { navList.classList.toggle('active'); }); </script>
+</body>
+</html>
